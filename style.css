@@ -1,0 +1,22 @@
+body {
+  background-color: #0f172a;
+}
+.body01 {
+  color: white;
+  font-size: xx-large;
+}
+.header {
+  margin-bottom: 80px;
+}
+.starting-words {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.big-box {
+  display: flex;
+  justify-content: center;
+}
+#body02 {
+  color: #8e5df8;
+}
