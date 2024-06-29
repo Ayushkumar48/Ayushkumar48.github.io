@@ -48,7 +48,6 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  /* width: 100%; */
 }
 
 .btn {
@@ -140,8 +139,6 @@ body {
     display: none;
   }
 }
-
-/* Other Styles Remain the Same */
 .starting-words {
   margin: 17vw 10vw 25vw 10vw;
 }
