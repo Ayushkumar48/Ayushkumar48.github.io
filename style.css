@@ -2,7 +2,7 @@ body {
   background-color: #0f172a;
   margin: 0;
   scroll-behavior: smooth;
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -345,7 +345,7 @@ body {
 }
 
 .contactme {
-  margin-bottom: 10vw;
+  margin-bottom: 7vw;
 }
 
 .footer {
@@ -391,4 +391,13 @@ body::-webkit-scrollbar-thumb {
   background-color: #24304e;
   /* border-radius: 10vw; */
   /* border: 0.008vw solid #ffffff; */
+}
+
+#historicalimg {
+  min-height: 30vh;
+}
+
+#formsubmitbtn {
+  padding-left: 0;
+  padding-right: 0;
 }
