@@ -72,3 +72,16 @@ function handleFormSubmit(event) {
   };
   form.submit();
 }
+
+function scrollToSection(event, sectionId) {
+  event.preventDefault();
+  const section = document.getElementById(sectionId);
+  const headerOffset = 70; // Adjust this value according to your navbar height
+  const elementPosition = section.getBoundingClientRect().top;
+  const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+  window.scrollTo({
+    top: offsetPosition,
+    behavior: "smooth",
+  });
+}

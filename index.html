@@ -18,19 +18,19 @@
         <div class="navbar-menu">
           <ul class="navbar-list">
             <li class="navbar-item">
-              <a href="#" class="navbar-link" aria-current="page">Home</a>
+              <a href="#home" class="navbar-link" onclick="scrollToSection(event, 'home')">Home</a>
             </li>
             <li class="navbar-item">
-              <a href="#" class="navbar-link">About</a>
+              <a href="#about-me" class="navbar-link" onclick="scrollToSection(event, 'about-me')">About</a>
             </li>
             <li class="navbar-item">
-              <a href="#" class="navbar-link">Skills</a>
+              <a href="#my-skills" class="navbar-link" onclick="scrollToSection(event, 'my-skills')">Skills</a>
             </li>
             <li class="navbar-item">
-              <a href="#" class="navbar-link">Projects</a>
+              <a href="#my-projects" class="navbar-link" onclick="scrollToSection(event, 'my-projects')">Projects</a>
             </li>
             <li class="navbar-item">
-              <a href="#" class="navbar-link">Contact</a>
+              <a href="#contact-me" class="navbar-link" onclick="scrollToSection(event, 'contact-me')">Contact</a>
             </li>
           </ul>
         </div>
@@ -49,7 +49,7 @@
   </header>
 
   <main>
-    <section class="starting-words">
+    <section class="starting-words" id="home">
       <div class="body01" style="font-size: 5vw;">Hi&#128075;, I am Ayush </div>
       <div class="body01" style="font-size: 2vw;">Ask me about <span id="body02"></span><span id="body03">|</span></div>
       <div class="btn-div">
@@ -68,7 +68,7 @@
       </div>
     </section>
 
-    <section id="aboutme">
+    <section class="aboutme" id="about-me">
       <h2 id="aboutme-heading" class="aboutme">About Me</h2>
       <div id="aboutme-para" class="aboutme">
         <p>Hi, I'm Ayush Kumar</p>
@@ -95,7 +95,7 @@
       </div>
     </section>
 
-    <section class="skills">
+    <section class="skills" id="my-skills">
       <div class="myskills-div">
         <div class="myskills-heading">My Skills</div>
         <div class="myskills-innerdiv">
@@ -175,7 +175,7 @@
       </div>
 
     </section>
-    <section class="projects">
+    <section class="projects" id="my-projects">
       <div class="myprojects-heading">My Projects</div>
       <div class="myprojects-div">
         <div class="myprojects-innerdiv">
@@ -224,7 +224,7 @@
         </div>
       </div>
     </section>
-    <section class="contactme">
+    <section class="contactme" id="contact-me">
       <div class="contactme-div">
         <div class="contactme-heading">
           Contact Me
